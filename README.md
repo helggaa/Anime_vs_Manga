@@ -49,6 +49,20 @@ This project analyzes **over 1,000 fan comments** across **11 well-known anime s
 
 ---
 
+## 🏷️ Sentiment Definition
+
+In this analysis, each comment is labeled with an **overall sentiment** toward the anime adaptation compared to its source material:
+
+- **Negative** – The commenter prefers the manga, criticizes the anime, or expresses disappointment with the adaptation. (e.g., *"The manga is amazing."*)
+
+- **Positive** – The commenter prefers the anime, praises the adaptation, or expresses dissatisfaction with the manga. (e.g., *"I prefer the anime more than the manga."*)
+
+- **Neutral** – The commenter has mixed feelings, finds both versions equally good/bad, or simply states facts without clear preference.
+
+> 💡 **Note:** A "positive" sentiment does **not** always mean the fan loves the anime unconditionally — it can also mean they dislike the manga. Conversely, a "negative" sentiment often indicates a preference for the manga over the anime.
+
+---
+
 ## 🔍 Methodology
 
 1. **Data Collection** – Scraped from public posts and comments.
