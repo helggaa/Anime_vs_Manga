@@ -97,3 +97,18 @@ In this analysis, each comment is labeled with an **overall sentiment** toward t
 
 ---
 
+## 🚧 Limitations
+
+- **Data Imbalance:** The number of comments varies significantly across series (e.g., `Naruto` with 289 comments vs. `One Punch Man` with 104). Aspects are also unevenly represented—*Fidelity* dominates (833 mentions), while *Production/Staff* (116) and *Tone/Atmosphere* (113) are underrepresented.
+
+- **Annotation Consistency:** Two human annotators labeled sentiment and aspects, which may introduce subjectivity and inconsistency, especially for ambiguous or sarcastic comments.
+
+- **Simplistic Sentiment Scale:** The three‑point scale (`positive`/`neutral`/`negative`) oversimplifies nuanced opinions. A more granular scale or separate labels for "prefers anime" vs. "prefers manga" could provide clearer insights.
+
+- **Aspect Coverage:** Other potentially relevant aspects were not included, which might miss additional patterns.
+
+- **Platform and Selection Bias:** Data was collected only from posts explicitly comparing anime to manga. Fans who engage in such discussions may hold stronger opinions than the general audience, and platforms like Reddit and TikTok have their own demographic biases.
+
+- **Lack of Dataset Transparency:** Direct links to original comments are not provided, which limits verifiability and reproducibility. Future work should consider making the dataset more transparent (e.g., through anonymized traceable references) to confirm the authenticity of the scraped data.
+
+- **Temporal Context Ignored:** The analysis does not account for when comments were posted. Sentiment toward an adaptation can shift over time (e.g., after a poorly received sequel season or director's statement). A longitudinal study could capture such dynamics.
