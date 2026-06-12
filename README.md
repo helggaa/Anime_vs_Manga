@@ -109,6 +109,6 @@ In this analysis, each comment is labeled with an **overall sentiment** toward t
 
 - **Platform and Selection Bias:** Data was collected only from posts explicitly comparing anime to manga. Fans who engage in such discussions may hold stronger opinions than the general audience, and platforms like Reddit and TikTok have their own demographic biases.
 
-- **Lack of Dataset Transparency:** Direct links to original comments are not provided, which limits verifiability and reproducibility. Future work should consider making the dataset more transparent (e.g., through anonymized traceable references) to confirm the authenticity of the scraped data.
-
+- **Lack of Dataset Transparency:** Direct links to original comments are not provided, which limits verifiability and reproducibility.
+  
 - **Temporal Context Ignored:** The analysis does not account for when comments were posted. Sentiment toward an adaptation can shift over time (e.g., after a poorly received sequel season or director's statement). A longitudinal study could capture such dynamics.
